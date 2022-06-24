@@ -172,8 +172,6 @@ function generate_webpage (serialized_f1_object, output_string, res){
 	
 }
 
-
-
 server.on("listening", listening_handler);
 server.listen(port);
 function listening_handler(){
